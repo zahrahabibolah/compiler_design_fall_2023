@@ -1,4 +1,4 @@
-// Generated from C:/Users/black/compiler_design_fall_2023/main.g4 by ANTLR 4.13.1
+// Generated from C:/Users/black/compiler_design_fall_2023/HW2/main.g4 by ANTLR 4.13.1
 import org.antlr.v4.runtime.Lexer;
 import org.antlr.v4.runtime.CharStream;
 import org.antlr.v4.runtime.Token;
@@ -9,7 +9,7 @@ import org.antlr.v4.runtime.dfa.DFA;
 import org.antlr.v4.runtime.misc.*;
 
 @SuppressWarnings({"all", "warnings", "unchecked", "unused", "cast", "CheckReturnValue", "this-escape"})
-public class maincalculatorLexer extends Lexer {
+public class mainLexer extends Lexer {
 	static { RuntimeMetaData.checkVersion("4.13.1", RuntimeMetaData.VERSION); }
 
 	protected static final DFA[] _decisionToDFA;
@@ -89,7 +89,7 @@ public class maincalculatorLexer extends Lexer {
 	}
 
 
-	public maincalculatorLexer(CharStream input) {
+	public mainLexer(CharStream input) {
 		super(input);
 		_interp = new LexerATNSimulator(this,_ATN,_decisionToDFA,_sharedContextCache);
 	}
