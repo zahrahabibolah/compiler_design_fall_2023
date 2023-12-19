@@ -1,6 +1,7 @@
 grammar main;
 
 start : nationalNumber email postalCode decimalNumber softwareVersion websiteAddress EOF;
+
 //Email
 fragment LOCAL_SUBPART : [a-zA-Z0-9._%+-]+;
 fragment DOMAIN_SUBPART : [a-zA-Z0-9.-]+;
@@ -10,8 +11,8 @@ EMAIL: LOCAL_SUBPART '@' DOMAIN_SUBPART '.' DOMAIN_SUBPART;
 NATIONAL_NUMBER: DIGIT DIGIT DIGIT DIGIT DIGIT DIGIT DIGIT DIGIT DIGIT DIGIT ;
 
 // Postal Code
-POSTAL_CODE : ('1''3'..'9')DIGIT{input.LT(1).getText() != "0" && input.LT(1).getText() != "2" } DIGIT DIGIT DIGIT DIGIT  DIGIT DIGIT DIGIT DIGIT DIGIT;
-//&& input.LT(1).getText() != NATIONAL_NUMBER
+POSTAL_CODE : {input.LT(1).getText() != "0" && input.LT(1).getText() != "2" } DIGIT DIGIT DIGIT DIGIT DIGIT DIGIT DIGIT DIGIT DIGIT DIGIT;
+
 // Decimal Number
 DECIMAL_NUMBER: [0-9]+ '.' [0-9]+;
 
