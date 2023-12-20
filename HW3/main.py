@@ -1,5 +1,5 @@
 from antlr4 import FileStream
-from HW3.gen.mainLexer import mainLexer
+from mainLexer import mainLexer
 import re
 
 
