@@ -37,7 +37,10 @@ This ANTLR grammar, called "password", defines rules for validating passwords lo
 
 
 ## Output/Input
-![Alt Text](Image URL)
+![1](https://github.com/zahrahabibolah/compiler_design_fall_2023/blob/main/HW4/hw4.png?raw=true)
+
+
+![2](https://github.com/zahrahabibolah/compiler_design_fall_2023/blob/main/HW4/hw4'.png?raw=true)
 
 ## Usage
 
@@ -45,3 +48,9 @@ This ANTLR grammar, called "password", defines rules for validating passwords lo
 2. **Generate Lexer and Parser:** Use ANTLR to generate lexer and parser classes for your grammar.
    ```bash
    antlr4 Password.g4
+   
+
+## License
+
+This grammar is provided under the [MIT License](LICENSE) specified in the repository.
+
