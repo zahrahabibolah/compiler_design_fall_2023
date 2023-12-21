@@ -1,9 +1,16 @@
 grammar palindrome;
 
+start: PALINDROME* EOF;
+
 palindrome: 'z' entry EOF;
 
-entry: DIGIT entry DIGIT
-     | DIGIT;
+entry: 'a' entry 'a'
+     | 'b' entry 'b'
+     | DIGIT entry DIGIT
+     | 'a'
+     | 'b'
+     | DIGIT
+     | ;
 
 DIGIT: [0-9];
 
