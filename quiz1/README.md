@@ -58,7 +58,6 @@ WS: [ \t\r\n]+ -> skip;
 ## Example
 ![1](https://github.com/zahrahabibolah/compiler_design_fall_2023/blob/main/quiz1/quiz.png?raw=true)
 
-
 This example demonstrates recognizing and printing both string and numeric palindromes in the provided input text.
 
 ## License
