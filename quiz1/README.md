@@ -56,11 +56,8 @@ WS: [ \t\r\n]+ -> skip;
 5. **Enter Your Input Text When Prompted.**
 
 ## Example
+![1](https://github.com/zahrahabibolah/compiler_design_fall_2023/blob/main/quiz1/quiz.png?raw=true)
 
-```python
-# Example usage:
-input_text = "zaba 12321"
-```
 
 This example demonstrates recognizing and printing both string and numeric palindromes in the provided input text.
 
