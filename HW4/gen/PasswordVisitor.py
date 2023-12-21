@@ -9,8 +9,13 @@ else:
 
 class PasswordVisitor(ParseTreeVisitor):
 
-    # Visit a parse tree produced by PasswordParser#password.
-    def visitPassword(self, ctx:PasswordParser.PasswordContext):
+    # Visit a parse tree produced by PasswordParser#palindrome.
+    def visitPalindrome(self, ctx:PasswordParser.PalindromeContext):
+        return self.visitChildren(ctx)
+
+
+    # Visit a parse tree produced by PasswordParser#entry.
+    def visitEntry(self, ctx:PasswordParser.EntryContext):
         return self.visitChildren(ctx)
 
 
