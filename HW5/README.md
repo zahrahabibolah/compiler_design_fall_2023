@@ -14,6 +14,3 @@
 
 - you can read the PDF below:
 - [Download PDF](https://github.com/zahrahabibolah/compiler_design_fall_2023/blob/024b05bc63f5be2659cf567385eba6c87c473d7a/HW5/openunderstand.pdf)
-## License
-
-This grammar is provided under the [MIT License](LICENSE) specified in the repository.
