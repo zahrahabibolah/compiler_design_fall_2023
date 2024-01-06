@@ -106,13 +106,13 @@
 | Java Declarein	        | technology, technology.tabula.debug | 	Debug.java       |
 
 ## how to use 
-![0](D:\ME\11111.png)
+![0](https://github.com/zahrahabibolah/compiler_design_fall_2023/blob/main/HW6/11111.png?raw=true)
 
 # Output/Input
 ## Output in OpenUnderstand
-![1](D:\ME\333.png)
+![1](https://github.com/zahrahabibolah/compiler_design_fall_2023/blob/main/HW6/333.png?raw=true)
 
 ## Output in Understand
 
-![2](C:\Users\black\Downloads\photo_5818699192019829995_y.jpg)
-![3](C:\Users\black\Downloads\photo_5818699192019830010_w.jpg)
+![2](https://github.com/zahrahabibolah/compiler_design_fall_2023/blob/main/HW6/photo_5818699192019829995_y.jpg?raw=true)
+![3](https://github.com/zahrahabibolah/compiler_design_fall_2023/blob/main/HW6/photo_5818699192019830010_w.jpg?raw=true)
